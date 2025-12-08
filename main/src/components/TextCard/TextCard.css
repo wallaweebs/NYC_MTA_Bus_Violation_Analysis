@@ -1,0 +1,25 @@
+.text-card{
+    background-color: #63636642;
+    border: 1px solid #FFFFFF7F;
+    border-radius: 25px;
+    width: 100% px;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.text-card h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+  
+.fade.hidden {
+    opacity: 0;
+}
+  
+

@@ -1,0 +1,25 @@
+.arrow-btn {
+    background-color: #63636642;
+    border: 2px solid #FFFFFF7F;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    width: 60px;  
+    height: 40px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-img {
+    width: 30px; 
+    height: 30px;
+    opacity: 0.95;
+    transition: 0.2s ease;
+  }
+  
+  .arrow-btn:hover .arrow-img {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  

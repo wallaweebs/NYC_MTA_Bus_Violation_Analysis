@@ -1,0 +1,109 @@
+.radial-text {
+    background: radial-gradient(circle at center,
+        #84C6FF 0%,
+        #FFCEB0 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1 {
+    color: radial-gradient(circle at center, #84C6FF, #FFCEB0);
+}
+
+.viz-row {   
+    border: 2px solid transparent;                    
+    border-radius: 25px;                               
+    padding: 2px;                                     
+    background:
+        linear-gradient(#63636668, #63636668) padding-box,         
+        linear-gradient(135deg,                           
+        #FFC191,
+        #FFFFFF 50%,
+        #0239B9
+        ) border-box; 
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.viz-wrapper-1 {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 25px;
+    background-color: #2C2C2E;
+}
+
+.viz-wrapper-2 {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    min-height: 400px;
+    border-radius: 25px;
+    background-color: rgba(99, 99, 102, 0.41);
+    padding: 5px;
+}
+
+.arrow-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding: 20px;
+  }
+  
+.arrow-slot {
+    width: 50px;      
+    height: 50px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-slot {
+    flex: 1;
+}
+
+.left-slot {
+    margin-right: auto;
+}
+
+.right-slot {
+    margin-left: auto;
+}
+  
