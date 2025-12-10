@@ -59,8 +59,8 @@ export default function DashBoard4() {
   const title = "When During the Day Do Violations Occur?";
   const visualizations = [
     {
-      subtitle: "Violation Heatmap by Hour of Day",
-      text: "Each line represents a different borough for violations tracked at each month",
+      subtitle: "Violation Heatmap by Hours of the Day for Each Day",
+      text: "Violations have occurred the most between 9 AM - 4 PM from Monday - Friday which makes sense since this includes rush hour to go to work and school and weekdays tend to be busiest.",
       chart: (
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
           <ScatterChart

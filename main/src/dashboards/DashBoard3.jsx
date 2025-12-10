@@ -93,34 +93,39 @@ export default function DashBoard3() {
     "Staten Island",
   ];
 
-  const title = "Which Neighborhoods Deviate From Their Borough Norm?";
+  const title = "Which Neighborhoods Deviate From Their Borough Average?";
   const visualizations = [];
+
+  const boroughTexts = {
+    Queens: [
+      "Overall, Q4 Oct-Dec had the lowest number of violations in all neighborhoods while Q2 Apr-Jun had the highest number of violations except in Astoria and Elmhurst. Jamaica Center had the highest number of violations while Maspeth had the lowest number compared to other neighborhoods.",
+    ],
+    Brooklyn: [
+      "Similar to Queens, Q4 Oct-Dec had the lowest number of violations in all neighborhoods while Q1 Jan-Mar had the highest number of violations. Flatbush had the highest number of violations while all neighborhoods had around the same levels for other quarters except for Williamsburg.",
+    ],
+    Bronx: [
+      "Just as the previous borough charts, Q4 Oct-Dec had the lowest number of violations while Q1 Jan-Mar and Q2 Apr-Jun had the highest number of violatiions per neighborhood. Overall, Pelham Parkway and Riverdale had the lowest number of violations while South Bronx had the highest compared to other neighborhoods.",
+    ],
+    Manhattan: [
+      "Q4 Oct-Dec for both 2024 and 2025 had the lowest number of violations in all neighborhoods while Q2 Apr-Jun had the highest number of violations except in Midtown and Greenwich Village. Compared to all other neighborhoods, Greenwich Village had the lowest number of violations while the Upper East Side had the highest number of violations compared to all other neighborhoods.",
+    ],
+    "Staten Island": [
+      "Q4 Oct-Dec had the lowest number of violations in all neighborhoods while Q1 Jan-Mar had the highest number. Overall Mid-Island had the lowest number of violations while St. George and Staten Island North Shore had around the same levels of highest violations compared to other neighborhoods.",
+    ],
+  };
 
   boroughs.forEach((borough) => {
     const boroughData = filterByBorough(data, borough);
 
     visualizations.push({
       subtitle: `${borough} - Neighborhoods`,
-      text: `Violations by neighborhood across quarters.`,
+      text: boroughTexts[borough][0],
       chart: (
         <Chart
           data={transformBoroughData(boroughData)}
           xAxisKey="area"
           lines={getQuarterLines()}
           leftYAxisLabel="Violations"
-        />
-      ),
-    });
-
-    visualizations.push({
-      subtitle: `${borough} - Borough Average Trend`,
-      text: `How the borough average changed across quarters.`,
-      chart: (
-        <Chart
-          data={transformBoroughAvgTrend(boroughData)}
-          xAxisKey="Quarter"
-          lines={[{ dataKey: "borough_avg", stroke: "#FF0000" }]}
-          leftYAxisLabel="Average Violations"
         />
       ),
     });
