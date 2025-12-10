@@ -1,0 +1,364 @@
+,area,Month,violations,borough
+0,Astoria,2024-12-01,374,Queens
+1,Astoria,2025-01-01,421,Queens
+2,Astoria,2025-02-01,353,Queens
+3,Astoria,2025-03-01,429,Queens
+4,Astoria,2025-04-01,401,Queens
+5,Astoria,2025-05-01,323,Queens
+6,Astoria,2025-06-01,469,Queens
+7,Astoria,2025-07-01,341,Queens
+8,Astoria,2025-08-01,344,Queens
+9,Astoria,2025-09-01,481,Queens
+10,Astoria,2025-10-01,415,Queens
+11,Astoria,2025-11-01,47,Queens
+12,Bed-Stuy,2024-12-01,768,Brooklyn
+13,Bed-Stuy,2025-01-01,779,Brooklyn
+14,Bed-Stuy,2025-02-01,605,Brooklyn
+15,Bed-Stuy,2025-03-01,769,Brooklyn
+16,Bed-Stuy,2025-04-01,684,Brooklyn
+17,Bed-Stuy,2025-05-01,797,Brooklyn
+18,Bed-Stuy,2025-06-01,676,Brooklyn
+19,Bed-Stuy,2025-07-01,715,Brooklyn
+20,Bed-Stuy,2025-08-01,801,Brooklyn
+21,Bed-Stuy,2025-09-01,794,Brooklyn
+22,Bed-Stuy,2025-10-01,447,Brooklyn
+23,Bed-Stuy,2025-11-01,31,Brooklyn
+24,Bensonhurst,2024-12-01,781,Brooklyn
+25,Bensonhurst,2025-01-01,761,Brooklyn
+26,Bensonhurst,2025-02-01,628,Brooklyn
+27,Bensonhurst,2025-03-01,643,Brooklyn
+28,Bensonhurst,2025-04-01,600,Brooklyn
+29,Bensonhurst,2025-05-01,607,Brooklyn
+30,Bensonhurst,2025-06-01,518,Brooklyn
+31,Bensonhurst,2025-07-01,572,Brooklyn
+32,Bensonhurst,2025-08-01,446,Brooklyn
+33,Bensonhurst,2025-09-01,446,Brooklyn
+34,Bensonhurst,2025-10-01,293,Brooklyn
+35,Bensonhurst,2025-11-01,26,Brooklyn
+36,Bushwick,2024-12-01,858,Brooklyn
+37,Bushwick,2025-01-01,1000,Brooklyn
+38,Bushwick,2025-02-01,646,Brooklyn
+39,Bushwick,2025-03-01,670,Brooklyn
+40,Bushwick,2025-04-01,674,Brooklyn
+41,Bushwick,2025-05-01,786,Brooklyn
+42,Bushwick,2025-06-01,662,Brooklyn
+43,Bushwick,2025-07-01,728,Brooklyn
+44,Bushwick,2025-08-01,532,Brooklyn
+45,Bushwick,2025-09-01,610,Brooklyn
+46,Bushwick,2025-10-01,278,Brooklyn
+47,Bushwick,2025-11-01,4,Brooklyn
+48,Crown Heights,2024-12-01,718,Brooklyn
+49,Crown Heights,2025-01-01,690,Brooklyn
+50,Crown Heights,2025-02-01,559,Brooklyn
+51,Crown Heights,2025-03-01,764,Brooklyn
+52,Crown Heights,2025-04-01,619,Brooklyn
+53,Crown Heights,2025-05-01,630,Brooklyn
+54,Crown Heights,2025-06-01,480,Brooklyn
+55,Crown Heights,2025-07-01,449,Brooklyn
+56,Crown Heights,2025-08-01,478,Brooklyn
+57,Crown Heights,2025-09-01,542,Brooklyn
+58,Crown Heights,2025-10-01,364,Brooklyn
+59,Crown Heights,2025-11-01,33,Brooklyn
+60,DUMBO,2024-12-01,843,Brooklyn
+61,DUMBO,2025-01-01,835,Brooklyn
+62,DUMBO,2025-02-01,588,Brooklyn
+63,DUMBO,2025-03-01,795,Brooklyn
+64,DUMBO,2025-04-01,719,Brooklyn
+65,DUMBO,2025-05-01,778,Brooklyn
+66,DUMBO,2025-06-01,631,Brooklyn
+67,DUMBO,2025-07-01,659,Brooklyn
+68,DUMBO,2025-08-01,563,Brooklyn
+69,DUMBO,2025-09-01,661,Brooklyn
+70,DUMBO,2025-10-01,513,Brooklyn
+71,DUMBO,2025-11-01,22,Brooklyn
+72,Downtown Brooklyn,2024-11-01,41,Brooklyn
+73,Downtown Brooklyn,2024-12-01,2655,Brooklyn
+74,Downtown Brooklyn,2025-01-01,3017,Brooklyn
+75,Downtown Brooklyn,2025-02-01,2473,Brooklyn
+76,Downtown Brooklyn,2025-03-01,3019,Brooklyn
+77,Downtown Brooklyn,2025-04-01,2913,Brooklyn
+78,Downtown Brooklyn,2025-05-01,2842,Brooklyn
+79,Downtown Brooklyn,2025-06-01,2542,Brooklyn
+80,Downtown Brooklyn,2025-07-01,2565,Brooklyn
+81,Downtown Brooklyn,2025-08-01,2321,Brooklyn
+82,Downtown Brooklyn,2025-09-01,2561,Brooklyn
+83,Downtown Brooklyn,2025-10-01,1934,Brooklyn
+84,Downtown Brooklyn,2025-11-01,135,Brooklyn
+85,Elmhurst,2024-11-01,2,Queens
+86,Elmhurst,2024-12-01,1622,Queens
+87,Elmhurst,2025-01-01,1695,Queens
+88,Elmhurst,2025-02-01,1357,Queens
+89,Elmhurst,2025-03-01,1767,Queens
+90,Elmhurst,2025-04-01,1585,Queens
+91,Elmhurst,2025-05-01,1513,Queens
+92,Elmhurst,2025-06-01,1392,Queens
+93,Elmhurst,2025-07-01,960,Queens
+94,Elmhurst,2025-08-01,787,Queens
+95,Elmhurst,2025-09-01,430,Queens
+96,Elmhurst,2025-10-01,428,Queens
+97,Elmhurst,2025-11-01,17,Queens
+98,Flatbush,2024-11-01,4,Brooklyn
+99,Flatbush,2024-12-01,7666,Brooklyn
+100,Flatbush,2025-01-01,6122,Brooklyn
+101,Flatbush,2025-02-01,4738,Brooklyn
+102,Flatbush,2025-03-01,6072,Brooklyn
+103,Flatbush,2025-04-01,4920,Brooklyn
+104,Flatbush,2025-05-01,5102,Brooklyn
+105,Flatbush,2025-06-01,4990,Brooklyn
+106,Flatbush,2025-07-01,4480,Brooklyn
+107,Flatbush,2025-08-01,5514,Brooklyn
+108,Flatbush,2025-09-01,5212,Brooklyn
+109,Flatbush,2025-10-01,3744,Brooklyn
+110,Flatbush,2025-11-01,156,Brooklyn
+111,Flushing,2024-11-01,6,Queens
+112,Flushing,2024-12-01,1115,Queens
+113,Flushing,2025-01-01,1107,Queens
+114,Flushing,2025-02-01,861,Queens
+115,Flushing,2025-03-01,1260,Queens
+116,Flushing,2025-04-01,1336,Queens
+117,Flushing,2025-05-01,1481,Queens
+118,Flushing,2025-06-01,1339,Queens
+119,Flushing,2025-07-01,1234,Queens
+120,Flushing,2025-08-01,1214,Queens
+121,Flushing,2025-09-01,1141,Queens
+122,Flushing,2025-10-01,887,Queens
+123,Flushing,2025-11-01,91,Queens
+124,Fordham,2024-11-01,4,Bronx
+125,Fordham,2024-12-01,4562,Bronx
+126,Fordham,2025-01-01,4057,Bronx
+127,Fordham,2025-02-01,3426,Bronx
+128,Fordham,2025-03-01,4483,Bronx
+129,Fordham,2025-04-01,4446,Bronx
+130,Fordham,2025-05-01,4279,Bronx
+131,Fordham,2025-06-01,3912,Bronx
+132,Fordham,2025-07-01,3839,Bronx
+133,Fordham,2025-08-01,3642,Bronx
+134,Fordham,2025-09-01,3493,Bronx
+135,Fordham,2025-10-01,2807,Bronx
+136,Fordham,2025-11-01,216,Bronx
+137,Harlem,2024-11-01,16,Manhattan
+138,Harlem,2024-12-01,13002,Manhattan
+139,Harlem,2025-01-01,9359,Manhattan
+140,Harlem,2025-02-01,7494,Manhattan
+141,Harlem,2025-03-01,9787,Manhattan
+142,Harlem,2025-04-01,10056,Manhattan
+143,Harlem,2025-05-01,9339,Manhattan
+144,Harlem,2025-06-01,8951,Manhattan
+145,Harlem,2025-07-01,8852,Manhattan
+146,Harlem,2025-08-01,8024,Manhattan
+147,Harlem,2025-09-01,6280,Manhattan
+148,Harlem,2025-10-01,5078,Manhattan
+149,Harlem,2025-11-01,279,Manhattan
+150,Howard Beach,2024-11-01,1,Queens
+151,Howard Beach,2024-12-01,629,Queens
+152,Howard Beach,2025-01-01,656,Queens
+153,Howard Beach,2025-02-01,380,Queens
+154,Howard Beach,2025-03-01,671,Queens
+155,Howard Beach,2025-04-01,633,Queens
+156,Howard Beach,2025-05-01,728,Queens
+157,Howard Beach,2025-06-01,851,Queens
+158,Howard Beach,2025-07-01,782,Queens
+159,Howard Beach,2025-08-01,796,Queens
+160,Howard Beach,2025-09-01,759,Queens
+161,Howard Beach,2025-10-01,429,Queens
+162,Howard Beach,2025-11-01,13,Queens
+163,Hunts Point,2024-11-01,1,Bronx
+164,Hunts Point,2024-12-01,2481,Bronx
+165,Hunts Point,2025-01-01,2695,Bronx
+166,Hunts Point,2025-02-01,2246,Bronx
+167,Hunts Point,2025-03-01,3032,Bronx
+168,Hunts Point,2025-04-01,2892,Bronx
+169,Hunts Point,2025-05-01,3008,Bronx
+170,Hunts Point,2025-06-01,2632,Bronx
+171,Hunts Point,2025-07-01,2260,Bronx
+172,Hunts Point,2025-08-01,2227,Bronx
+173,Hunts Point,2025-09-01,2316,Bronx
+174,Hunts Point,2025-10-01,1587,Bronx
+175,Hunts Point,2025-11-01,89,Bronx
+176,Jamaica Center,2024-11-01,15,Queens
+177,Jamaica Center,2024-12-01,7484,Queens
+178,Jamaica Center,2025-01-01,6871,Queens
+179,Jamaica Center,2025-02-01,5650,Queens
+180,Jamaica Center,2025-03-01,7312,Queens
+181,Jamaica Center,2025-04-01,7232,Queens
+182,Jamaica Center,2025-05-01,7590,Queens
+183,Jamaica Center,2025-06-01,6835,Queens
+184,Jamaica Center,2025-07-01,6122,Queens
+185,Jamaica Center,2025-08-01,5161,Queens
+186,Jamaica Center,2025-09-01,5824,Queens
+187,Jamaica Center,2025-10-01,4523,Queens
+188,Jamaica Center,2025-11-01,505,Queens
+189,Lower East Side,2024-11-01,1,Manhattan
+190,Lower East Side,2024-12-01,1145,Manhattan
+191,Lower East Side,2025-01-01,1219,Manhattan
+192,Lower East Side,2025-02-01,1105,Manhattan
+193,Lower East Side,2025-03-01,1558,Manhattan
+194,Lower East Side,2025-04-01,1759,Manhattan
+195,Lower East Side,2025-05-01,1412,Manhattan
+196,Lower East Side,2025-06-01,1173,Manhattan
+197,Lower East Side,2025-07-01,1144,Manhattan
+198,Lower East Side,2025-08-01,1081,Manhattan
+199,Lower East Side,2025-09-01,1386,Manhattan
+200,Lower East Side,2025-10-01,829,Manhattan
+201,Lower East Side,2025-11-01,57,Manhattan
+202,Lower Manhattan / FiDi,2024-11-01,2,Manhattan
+203,Lower Manhattan / FiDi,2024-12-01,2368,Manhattan
+204,Lower Manhattan / FiDi,2025-01-01,2482,Manhattan
+205,Lower Manhattan / FiDi,2025-02-01,2019,Manhattan
+206,Lower Manhattan / FiDi,2025-03-01,2877,Manhattan
+207,Lower Manhattan / FiDi,2025-04-01,3178,Manhattan
+208,Lower Manhattan / FiDi,2025-05-01,3552,Manhattan
+209,Lower Manhattan / FiDi,2025-06-01,3255,Manhattan
+210,Lower Manhattan / FiDi,2025-07-01,3217,Manhattan
+211,Lower Manhattan / FiDi,2025-08-01,2621,Manhattan
+212,Lower Manhattan / FiDi,2025-09-01,3064,Manhattan
+213,Lower Manhattan / FiDi,2025-10-01,1672,Manhattan
+214,Lower Manhattan / FiDi,2025-11-01,84,Manhattan
+215,Maspeth,2024-12-01,130,Queens
+216,Maspeth,2025-01-01,158,Queens
+217,Maspeth,2025-02-01,127,Queens
+218,Maspeth,2025-03-01,156,Queens
+219,Maspeth,2025-04-01,86,Queens
+220,Maspeth,2025-05-01,98,Queens
+221,Maspeth,2025-06-01,80,Queens
+222,Maspeth,2025-08-01,2,Queens
+223,Maspeth,2025-09-01,8,Queens
+224,Maspeth,2025-10-01,4,Queens
+225,Mid-Island / New Dorp,2024-12-01,5,Staten Island
+226,Mid-Island / New Dorp,2025-01-01,7,Staten Island
+227,Mid-Island / New Dorp,2025-02-01,4,Staten Island
+228,Mid-Island / New Dorp,2025-03-01,13,Staten Island
+229,Mid-Island / New Dorp,2025-04-01,14,Staten Island
+230,Mid-Island / New Dorp,2025-05-01,16,Staten Island
+231,Mid-Island / New Dorp,2025-06-01,12,Staten Island
+232,Mid-Island / New Dorp,2025-07-01,13,Staten Island
+233,Mid-Island / New Dorp,2025-08-01,8,Staten Island
+234,Mid-Island / New Dorp,2025-09-01,27,Staten Island
+235,Mid-Island / New Dorp,2025-10-01,12,Staten Island
+236,Midtown,2024-12-01,1330,Manhattan
+237,Midtown,2025-01-01,1559,Manhattan
+238,Midtown,2025-02-01,1170,Manhattan
+239,Midtown,2025-03-01,1742,Manhattan
+240,Midtown,2025-04-01,1558,Manhattan
+241,Midtown,2025-05-01,2335,Manhattan
+242,Midtown,2025-06-01,3796,Manhattan
+243,Midtown,2025-07-01,4732,Manhattan
+244,Midtown,2025-08-01,5309,Manhattan
+245,Midtown,2025-09-01,5131,Manhattan
+246,Midtown,2025-10-01,3791,Manhattan
+247,Midtown,2025-11-01,356,Manhattan
+248,Mott Haven,2024-11-01,2,Bronx
+249,Mott Haven,2024-12-01,2852,Bronx
+250,Mott Haven,2025-01-01,2825,Bronx
+251,Mott Haven,2025-02-01,2620,Bronx
+252,Mott Haven,2025-03-01,3471,Bronx
+253,Mott Haven,2025-04-01,3450,Bronx
+254,Mott Haven,2025-05-01,2633,Bronx
+255,Mott Haven,2025-06-01,2199,Bronx
+256,Mott Haven,2025-07-01,2582,Bronx
+257,Mott Haven,2025-08-01,2379,Bronx
+258,Mott Haven,2025-09-01,1899,Bronx
+259,Mott Haven,2025-10-01,1752,Bronx
+260,Mott Haven,2025-11-01,194,Bronx
+261,Pelham Parkway,2024-12-01,26,Bronx
+262,Pelham Parkway,2025-01-01,26,Bronx
+263,Pelham Parkway,2025-02-01,34,Bronx
+264,Pelham Parkway,2025-03-01,20,Bronx
+265,Pelham Parkway,2025-04-01,26,Bronx
+266,Pelham Parkway,2025-05-01,17,Bronx
+267,Pelham Parkway,2025-06-01,10,Bronx
+268,Pelham Parkway,2025-07-01,31,Bronx
+269,Pelham Parkway,2025-08-01,21,Bronx
+270,Pelham Parkway,2025-09-01,17,Bronx
+271,Pelham Parkway,2025-10-01,57,Bronx
+272,Pelham Parkway,2025-11-01,3,Bronx
+273,Riverdale,2025-09-01,416,Bronx
+274,Riverdale,2025-10-01,585,Bronx
+275,Riverdale,2025-11-01,12,Bronx
+276,Soho / Greenwich Village,2024-12-01,260,Manhattan
+277,Soho / Greenwich Village,2025-01-01,306,Manhattan
+278,Soho / Greenwich Village,2025-02-01,201,Manhattan
+279,Soho / Greenwich Village,2025-03-01,253,Manhattan
+280,Soho / Greenwich Village,2025-04-01,333,Manhattan
+281,Soho / Greenwich Village,2025-05-01,468,Manhattan
+282,Soho / Greenwich Village,2025-06-01,475,Manhattan
+283,Soho / Greenwich Village,2025-07-01,500,Manhattan
+284,Soho / Greenwich Village,2025-08-01,568,Manhattan
+285,Soho / Greenwich Village,2025-09-01,452,Manhattan
+286,Soho / Greenwich Village,2025-10-01,232,Manhattan
+287,Soho / Greenwich Village,2025-11-01,22,Manhattan
+288,South Bronx,2024-11-01,3,Bronx
+289,South Bronx,2024-12-01,10016,Bronx
+290,South Bronx,2025-01-01,10508,Bronx
+291,South Bronx,2025-02-01,8746,Bronx
+292,South Bronx,2025-03-01,11258,Bronx
+293,South Bronx,2025-04-01,10965,Bronx
+294,South Bronx,2025-05-01,10308,Bronx
+295,South Bronx,2025-06-01,8916,Bronx
+296,South Bronx,2025-07-01,9059,Bronx
+297,South Bronx,2025-08-01,8067,Bronx
+298,South Bronx,2025-09-01,7327,Bronx
+299,South Bronx,2025-10-01,6356,Bronx
+300,South Bronx,2025-11-01,409,Bronx
+301,St. George,2024-12-01,784,Staten Island
+302,St. George,2025-01-01,672,Staten Island
+303,St. George,2025-02-01,446,Staten Island
+304,St. George,2025-03-01,534,Staten Island
+305,St. George,2025-04-01,491,Staten Island
+306,St. George,2025-05-01,446,Staten Island
+307,St. George,2025-06-01,444,Staten Island
+308,St. George,2025-07-01,385,Staten Island
+309,St. George,2025-08-01,466,Staten Island
+310,St. George,2025-09-01,518,Staten Island
+311,St. George,2025-10-01,407,Staten Island
+312,St. George,2025-11-01,15,Staten Island
+313,Staten Island North Shore,2024-12-01,852,Staten Island
+314,Staten Island North Shore,2025-01-01,716,Staten Island
+315,Staten Island North Shore,2025-02-01,472,Staten Island
+316,Staten Island North Shore,2025-03-01,509,Staten Island
+317,Staten Island North Shore,2025-04-01,430,Staten Island
+318,Staten Island North Shore,2025-05-01,433,Staten Island
+319,Staten Island North Shore,2025-06-01,392,Staten Island
+320,Staten Island North Shore,2025-07-01,352,Staten Island
+321,Staten Island North Shore,2025-08-01,359,Staten Island
+322,Staten Island North Shore,2025-09-01,426,Staten Island
+323,Staten Island North Shore,2025-10-01,374,Staten Island
+324,Staten Island North Shore,2025-11-01,15,Staten Island
+325,Upper East Side,2024-11-01,5,Manhattan
+326,Upper East Side,2024-12-01,8772,Manhattan
+327,Upper East Side,2025-01-01,10974,Manhattan
+328,Upper East Side,2025-02-01,9068,Manhattan
+329,Upper East Side,2025-03-01,10952,Manhattan
+330,Upper East Side,2025-04-01,11465,Manhattan
+331,Upper East Side,2025-05-01,12707,Manhattan
+332,Upper East Side,2025-06-01,11354,Manhattan
+333,Upper East Side,2025-07-01,11087,Manhattan
+334,Upper East Side,2025-08-01,10662,Manhattan
+335,Upper East Side,2025-09-01,11703,Manhattan
+336,Upper East Side,2025-10-01,8115,Manhattan
+337,Upper East Side,2025-11-01,581,Manhattan
+338,Upper West Side,2024-12-01,2489,Manhattan
+339,Upper West Side,2025-01-01,3411,Manhattan
+340,Upper West Side,2025-02-01,2496,Manhattan
+341,Upper West Side,2025-03-01,3006,Manhattan
+342,Upper West Side,2025-04-01,3015,Manhattan
+343,Upper West Side,2025-05-01,3477,Manhattan
+344,Upper West Side,2025-06-01,2767,Manhattan
+345,Upper West Side,2025-07-01,2258,Manhattan
+346,Upper West Side,2025-08-01,2462,Manhattan
+347,Upper West Side,2025-09-01,2908,Manhattan
+348,Upper West Side,2025-10-01,2100,Manhattan
+349,Upper West Side,2025-11-01,80,Manhattan
+350,Williamsburg,2024-11-01,1,Brooklyn
+351,Williamsburg,2024-12-01,1112,Brooklyn
+352,Williamsburg,2025-01-01,1141,Brooklyn
+353,Williamsburg,2025-02-01,909,Brooklyn
+354,Williamsburg,2025-03-01,1318,Brooklyn
+355,Williamsburg,2025-04-01,1188,Brooklyn
+356,Williamsburg,2025-05-01,1162,Brooklyn
+357,Williamsburg,2025-06-01,939,Brooklyn
+358,Williamsburg,2025-07-01,950,Brooklyn
+359,Williamsburg,2025-08-01,870,Brooklyn
+360,Williamsburg,2025-09-01,1353,Brooklyn
+361,Williamsburg,2025-10-01,762,Brooklyn
+362,Williamsburg,2025-11-01,69,Brooklyn
