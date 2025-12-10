@@ -65,7 +65,7 @@ export default function DashBoard3() {
       { dataKey: "2025Q1", stroke: colors[1] },
       { dataKey: "2025Q2", stroke: colors[2] },
       { dataKey: "2025Q3", stroke: colors[3] },
-      { dataKey: "2025Q4", stroke: colors[4] }
+      { dataKey: "2025Q4", stroke: colors[4] },
     ];
   };
 
@@ -102,26 +102,27 @@ export default function DashBoard3() {
     visualizations.push({
       subtitle: `${borough} - Neighborhoods`,
       text: `Violations by neighborhood across quarters.`,
-      chart:
-          <Chart
-            data={transformBoroughData(boroughData)}
-            xAxisKey="area"
-            lines={getQuarterLines()}
-            leftYAxisLabel="Violations"
-          />
+      chart: (
+        <Chart
+          data={transformBoroughData(boroughData)}
+          xAxisKey="area"
+          lines={getQuarterLines()}
+          leftYAxisLabel="Violations"
+        />
+      ),
     });
 
-    // Add borough average trend chart
     visualizations.push({
       subtitle: `${borough} - Borough Average Trend`,
       text: `How the borough average changed across quarters.`,
-      chart:
-          <Chart
-            data={transformBoroughAvgTrend(boroughData)}
-            xAxisKey="Quarter"
-            lines={[{ dataKey: "borough_avg", stroke: "#FF0000" }]}
-            leftYAxisLabel="Average Violations"
-          />
+      chart: (
+        <Chart
+          data={transformBoroughAvgTrend(boroughData)}
+          xAxisKey="Quarter"
+          lines={[{ dataKey: "borough_avg", stroke: "#FF0000" }]}
+          leftYAxisLabel="Average Violations"
+        />
+      ),
     });
   });
 

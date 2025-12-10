@@ -44,14 +44,15 @@ export default function Chart({
         textAnchor="end"
         height={80}
         interval={0}
-        tick={{ fontSize: 12 }}
+        tick={{ fontSize: 12, fill: "white" }}
       />
       <YAxis
       dataKey={yAxisKey[0]}
         yAxisId="left"
         width="auto"
         stroke={"white"}
-        label={{ value: leftYAxisLabel, position: "insideLeft", angle: -90 }}
+        tick={{ fill: "white" }}
+        label={{ value: leftYAxisLabel, position: "insideLeft", angle: -90, fill: "white" }}
       />
       {yAxisKey.length > 0 && (
         <YAxis
@@ -60,7 +61,8 @@ export default function Chart({
           orientation="right"
           width="auto"
           stroke={"white"}
-          label={{ value: rightYAxisLabel, position: "insideRight", angle: 90 }}
+          tick={{ fill: "white" }}
+          label={{ value: rightYAxisLabel, position: "insideRight", angle: 90, fill: "white" }}
         />
       )}
 
