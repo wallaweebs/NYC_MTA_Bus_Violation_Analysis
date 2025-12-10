@@ -94,10 +94,6 @@ For this project, we will be looking at 30 neighborhoods across New York City:
 - Hour-of-day heatmap
 - Day-of-week distribution
 
-### **5. How Do Quarterly Violation Trends Change by Borough?**
-- Small multiples (tiny line charts for each borough)
-- Choropleth by quarter
-
 ## **Tools Used**
 - **Data Preprocessing**: Python, pandas, geopandas
 - **Interactive Visualizations**: React + Recharts
