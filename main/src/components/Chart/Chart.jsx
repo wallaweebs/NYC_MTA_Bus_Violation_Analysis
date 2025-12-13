@@ -6,6 +6,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
+  ResponsiveContainer
 } from "recharts";
 
 export default function Chart({
@@ -31,6 +32,7 @@ export default function Chart({
       : [];
 
   return (
+    <ResponsiveContainer width="100%" height="100%">
     <LineChart
       width={800}
       height={600}
@@ -80,5 +82,6 @@ export default function Chart({
         />
       ))}
     </LineChart>
+    </ResponsiveContainer>
   );
 }

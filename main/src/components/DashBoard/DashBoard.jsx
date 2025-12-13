@@ -25,7 +25,7 @@ export default function DashBoard({ title, visualizations }) {
             <div className="viz-row">
                 <div className="viz-wrapper-1">
                     <div className="viz-wrapper-2">
-                        <VisualizationCard chart={current.chart} htmlFile={current.htmlFile} />
+                        <VisualizationCard chart={current.chart} htmlFile={current.htmlFile} img={current.img}/>
                     </div>
                 </div>
             </div>

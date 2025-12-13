@@ -1,8 +1,7 @@
 import './VisualizationCard.css';
 
-export default function VisualizationCard({ chart, htmlFile }) {
+export default function VisualizationCard({ chart, htmlFile, img }) {
   
-    // If it's an HTML map → render iframe
     if (htmlFile) {
       const src = process.env.PUBLIC_URL + "/maps/" + htmlFile;
       return (
@@ -17,11 +16,23 @@ export default function VisualizationCard({ chart, htmlFile }) {
       );
     }
   
-    // If it's a JSX component → render it directly
     if (chart) {
       return (
         <div className="viz-card">
           {chart}
+        </div>
+      );
+    }
+
+    if (img) {
+      const src = process.env.PUBLIC_URL + "/images/" + img;
+      return (
+        <div className="viz-card">
+          <img 
+            src={src} 
+            alt={img} 
+            className="viz-image"
+          />
         </div>
       );
     }

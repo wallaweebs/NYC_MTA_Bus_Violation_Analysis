@@ -7,7 +7,7 @@ export default function DashBoard3() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("./charts/nyc_borough_violations.csv")
+    fetch(process.env.PUBLIC_URL + "/charts/nyc_borough_violations.csv")
       .then((response) => response.text())
       .then((csv) => {
         Papa.parse(csv, {
@@ -18,10 +18,11 @@ export default function DashBoard3() {
               results.data.filter((row) =>
                 Object.keys(row).some((key) => row[key])
               )
-            ),
+            )
         });
       });
   }, []);
+  
 
   const filterByBorough = (data, boroughName) => {
     return data.filter((row) => row.borough === boroughName);
@@ -125,7 +126,7 @@ export default function DashBoard3() {
           data={transformBoroughData(boroughData)}
           xAxisKey="area"
           lines={getQuarterLines()}
-          leftYAxisLabel="Violations"
+          leftYAxisLabel="violations"
         />
       ),
     });

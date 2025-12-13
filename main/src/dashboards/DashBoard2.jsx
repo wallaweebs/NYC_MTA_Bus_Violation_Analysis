@@ -4,21 +4,31 @@ import { useState, useEffect } from "react";
 import Papa from "papaparse";
 
 export default function DashBoard2() {
+
   const [data, setData] = useState([]);
 
+  console.log("Dashboard2 render start");
   useEffect(() => {
-    fetch("./charts/nyc_monthly_violations_per_area_summed.csv")
+    console.log("USEEFFECT RAN!");
+  }, []);
+
+  useEffect(() => {
+    console.log("logging");
+    fetch(process.env.PUBLIC_URL + "/charts/nyc_monthly_violations_per_area_summed.csv")
       .then((response) => response.text())
       .then((csv) => {
+        console.log("CSV FETCHED TEXT:", csv.slice(0, 200));
         Papa.parse(csv, {
           header: true,
           dynamicTyping: true,
-          complete: (results) =>
-            setData(
-              results.data.filter((row) =>
+          complete: (results) => {
+              console.log("RAW PARSED DATA:", results.data);
+              const cleaned = results.data.filter(row =>
                 Object.keys(row).some((key) => row[key])
-              )
-            ),
+              );
+              console.log("CLEANED DATA:", cleaned);
+              setData(cleaned);
+            }
         });
       });
   }, []);
@@ -71,6 +81,11 @@ export default function DashBoard2() {
   };
 
   const title = "How Have Violations Changed Month-to-Month?";
+
+  // const pivoted = pivotByMonth(data);
+  // console.log("PIVOTED DATA:", pivoted);
+
+
   const visualizations = [
     {
       subtitle: "Violations by Borough",
@@ -85,5 +100,10 @@ export default function DashBoard2() {
     },
   ];
 
-  return <DashBoard title={title} visualizations={visualizations} />;
+  try {
+    return <DashBoard title={title} visualizations={visualizations} />;
+  } catch (err) {
+    console.error("RENDER ERROR IN DASHBOARD2:", err);
+    return <div style={{ color: "red" }}>Render error — check console.</div>;
+  }
 }

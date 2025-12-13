@@ -13,8 +13,13 @@ import {
 export default function DashBoard4() {
   const [data, setData] = useState([]);
 
+  console.log("Dashboard2 render start");
   useEffect(() => {
-    fetch("./charts/nyc_violation_time_patterns.csv")
+    console.log("USEEFFECT RAN!");
+  }, []); // ?????
+
+  useEffect(() => {
+    fetch(process.env.PUBLIC_URL + "/charts/nyc_violation_time_patterns.csv")
       .then((response) => response.text())
       .then((csv) => {
         Papa.parse(csv, {
