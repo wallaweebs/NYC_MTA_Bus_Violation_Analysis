@@ -2,8 +2,12 @@
 
 ## **Project: NYC Bus Violations: How do bus lane violations vary by NYC neighborhood?**
 **Team:** Team GOYAL
+
 **Members:** Debasree Sen, Addina Rahaman, Sadeq Abubaker Alhanshali
+
 **Dataset Used:** https://catalog.data.gov/dataset/mta-bus-automated-camera-enforcement-violations-beginning-october-2019
+
+**GitHub Pages:** https://wallaweebs.github.io/NYC_MTA_Bus_Violation_Analysis/ 
 
 ## **Abstract**
 
@@ -93,6 +97,9 @@ For this project, we will be looking at 30 neighborhoods across New York City:
 ### **4. When During the Day Do Violations Occur?**
 - Hour-of-day heatmap
 - Day-of-week distribution
+
+## **5. What are the Major Violation Types per Neighborhood?**
+- Stack bar chart by neighborhood and violation type
 
 ## **Tools Used**
 - **Data Preprocessing**: Python, pandas, geopandas
