@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NYC_MTA_Bus_Violation_Analysis/static/css/main.9ca5e385.css",
-    "main.js": "/NYC_MTA_Bus_Violation_Analysis/static/js/main.031e1538.js",
+    "main.css": "/NYC_MTA_Bus_Violation_Analysis/static/css/main.4b8c82c2.css",
+    "main.js": "/NYC_MTA_Bus_Violation_Analysis/static/js/main.fc897737.js",
     "static/js/453.b57f2bc8.chunk.js": "/NYC_MTA_Bus_Violation_Analysis/static/js/453.b57f2bc8.chunk.js",
     "index.html": "/NYC_MTA_Bus_Violation_Analysis/index.html",
-    "main.9ca5e385.css.map": "/NYC_MTA_Bus_Violation_Analysis/static/css/main.9ca5e385.css.map",
-    "main.031e1538.js.map": "/NYC_MTA_Bus_Violation_Analysis/static/js/main.031e1538.js.map",
+    "main.4b8c82c2.css.map": "/NYC_MTA_Bus_Violation_Analysis/static/css/main.4b8c82c2.css.map",
+    "main.fc897737.js.map": "/NYC_MTA_Bus_Violation_Analysis/static/js/main.fc897737.js.map",
     "453.b57f2bc8.chunk.js.map": "/NYC_MTA_Bus_Violation_Analysis/static/js/453.b57f2bc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ca5e385.css",
-    "static/js/main.031e1538.js"
+    "static/css/main.4b8c82c2.css",
+    "static/js/main.fc897737.js"
   ]
 }
