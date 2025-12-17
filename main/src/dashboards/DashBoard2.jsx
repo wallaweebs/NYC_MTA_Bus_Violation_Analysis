@@ -89,7 +89,7 @@ export default function DashBoard2() {
   const visualizations = [
     {
       subtitle: "Violations by Borough",
-      text: "The Bronx had an overwhelming amount of around 3x more violations than the other boroughs whereas Queens had the least amount of violations for most months with a sharp increase in April.",
+      text: "The Bronx had an overwhelming amount of around 3x more violations than the other boroughs whereas Queens had the least amount of violations for most months with a sharp increase in August.",
       chart:
           <Chart
             data={pivotByMonth(data)}

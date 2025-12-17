@@ -70,22 +70,6 @@ export default function DashBoard3() {
     ];
   };
 
-  const transformBoroughAvgTrend = (data) => {
-    const avgMap = {};
-
-    data.forEach((row) => {
-      const { Quarter, borough_avg } = row;
-      if (Quarter && borough_avg && !avgMap[Quarter]) {
-        avgMap[Quarter] = { Quarter, borough_avg: parseFloat(borough_avg) };
-      }
-    });
-
-    return Object.values(avgMap).sort((a, b) => {
-      const quarterOrder = ["2024Q4", "2025Q1", "2025Q2", "2025Q3", "2025Q4"];
-      return quarterOrder.indexOf(a.Quarter) - quarterOrder.indexOf(b.Quarter);
-    });
-  };
-
   const boroughs = [
     "Queens",
     "Brooklyn",

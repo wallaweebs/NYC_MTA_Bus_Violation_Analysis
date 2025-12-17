@@ -6,7 +6,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-  ResponsiveContainer
+  ResponsiveContainer,
 } from "recharts";
 
 export default function Chart({
@@ -16,7 +16,7 @@ export default function Chart({
   colors = ["#8884d8", "#82ca9d", "#ffc658", "#ff7c7c"],
   yAxisKey = [],
   leftYAxisLabel = "Left Axis",
-  rightYAxisLabel = "Right Axis"
+  rightYAxisLabel = "Right Axis",
 }) {
   // If no lines specified, automatically use all numeric columns except xAxisKey
   const lineConfig =
@@ -32,56 +32,61 @@ export default function Chart({
       : [];
 
   return (
-    <ResponsiveContainer width="100%" height="100%">
-    <LineChart
-      width={800}
-      height={600}
-      data={data}
-    >
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis
-        dataKey={xAxisKey}
-        stroke={"white"}
-        angle={-45}
-        textAnchor="end"
-        height={80}
-        interval={0}
-        tick={{ fontSize: 12, fill: "white" }}
-      />
-      <YAxis
-      dataKey={yAxisKey[0]}
-        yAxisId="left"
-        width="auto"
-        stroke={"white"}
-        tick={{ fill: "white" }}
-        label={{ value: leftYAxisLabel, position: "insideLeft", angle: -90, fill: "white" }}
-      />
-      {yAxisKey.length > 0 && (
+    <ResponsiveContainer width={800} height={600}>
+      <LineChart
+        data={data}
+        margin={{ top: 50, bottom: 20 }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis
+          dataKey={xAxisKey}
+          stroke={"white"}
+          angle={-45}
+          textAnchor="end"
+          height={90}
+          interval={0}
+          tick={{ fontSize: 12, fill: "white" }}
+        />
         <YAxis
-        dataKey={yAxisKey[1]}
-          yAxisId="right"
-          orientation="right"
-          width="auto"
+          yAxisId="left"
           stroke={"white"}
           tick={{ fill: "white" }}
-          label={{ value: rightYAxisLabel, position: "insideRight", angle: 90, fill: "white" }}
+          label={{
+            value: leftYAxisLabel,
+            angle: -90,
+            position: "insideLeft",
+            fill: "white",
+          }}
         />
-      )}
+        {yAxisKey.length > 0 && (
+          <YAxis
+            yAxisId="right"
+            orientation="right"
+            stroke={"white"}
+            tick={{ fill: "white" }}
+            label={{
+              value: rightYAxisLabel,
+              angle: 90,
+              position: "insideRight",
+              fill: "white",
+            }}
+          />
+        )}
 
-      <Tooltip />
-      <Legend align="right" />
+        <Tooltip />
+        <Legend align="right" />
 
-      {lineConfig.map((config, idx) => (
-        <Line
-          key={config.dataKey}
-          type="monotone"
-          dataKey={config.dataKey}
-          stroke={config.stroke || colors[idx % colors.length]}
-          dot={false}
-          yAxisId={config.yAxisId || "left"}
-        />
-      ))}
-    </LineChart>
+        {lineConfig.map((config, idx) => (
+          <Line
+            key={config.dataKey}
+            type="monotone"
+            dataKey={config.dataKey}
+            stroke={config.stroke || colors[idx % colors.length]}
+            dot={false}
+            yAxisId={config.yAxisId || "left"}
+          />
+        ))}
+      </LineChart>
     </ResponsiveContainer>
   );
 }
